@@ -1,6 +1,6 @@
-turns = [lambda x: x + 2, lambda x: x * 2]
-w = 25
-table = {0: set(range(w, 100))}
+turns = [lambda x: x + 2, lambda x: x * 3]
+w = 65
+table = {0: set(range(w, 200))}
 for i in range(w - 1, 0, -1):
     future = []
     for turn in turns:
