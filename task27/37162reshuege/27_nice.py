@@ -1,4 +1,4 @@
-n, *a = map(int, open('27_a.txt'))
+n, *a = map(int, open('27_b.txt'))
 
 k = 89
 mx_s = 0
@@ -23,4 +23,3 @@ for ind, x in enumerate(a, start=1):
         mn_len = min(mn_len, ln)
 
 print(mn_len, mx_s)
-# 67058 35812799
